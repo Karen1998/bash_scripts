@@ -1,6 +1,6 @@
 #!/bin/bash
 
-number_regex="^[a-zA-Z_]"
+number_regex="^[+-]?[0-9]+([.][0-9]+)?$"
 
 
 # Check for valid count of arguments
